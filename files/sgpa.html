@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html" charset="utf-8" http-equiv="Content-Type" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"
+    />
+
+    <!-- Basic Meta-Tags -->
+    <meta
+      name="description"
+      content="A simple and easy way to calculate grade percentage aggregate for the marks you have scored in Visvesvaraya Technological University. You have to input marks according to the credits they carry, and a final calculated GPA will be provided."
+    />
+    <meta name="keywords" content="VTU, Engineering, Bangalore" />
+    <meta name="classification" content="Educational" />
+
+    <meta name="distribution" content="global" />
+    <meta name="author" content="Vivek Mishra" />
+
+    <meta name="theme-color" content="#060606" />
+    <title>VTU SGPA Calculator</title>
+
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="icon" href="" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/sgpa.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="main-bg">
+        <h4 class="mb-4">SGPA Calculator</h4>
+        <p class="display-5 mb-4">
+          Please input the marks separated by spaces. Leave the fields blank
+          that are not applicable to you. Example - If you had 3 subjects of 4
+          credits each, enter marks in the field '4 Credits Marks' as:
+          <b>55 85 82</b>.
+        </p>
+        <form name="myform">
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="5 Credits Marks"
+            name="five"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="4 Credits Marks"
+            name="four"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="3 Credits Marks"
+            name="three"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="2 Credits Marks"
+            name="two"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="1 Credit Marks"
+            name="one"
+          /><br />
+        </form>
+
+        <button onclick="calculate()" class="btn btn-outline-success mb-4">
+          Calculate
+        </button>
+        <a href="sgpa.html"
+          ><button class="btn btn-outline-danger mb-4">Reset</button>
+        </a>
+        <a href="../index.html"
+          ><button class="btn btn-outline-primary mb-4">Back Home</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
