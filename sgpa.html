@@ -12,47 +12,48 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/sgpa.css" />
     <script src="script.js"></script>
-    <style>
-      body {
-        font-family: "Roboto Mono", monospace;
-      }
-      #main-bg {
-        padding: 8% 5% 0% 5%;
-        line-height: 2;
-      }
-      .form-control-lg {
-        width: 90%;
-        background-color: #121212;
-        border: 0px;
-        color: white;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
       <div id="main-bg">
         <h4 class="mb-4">SGPA Calculator</h4>
         <p class="display-5 mb-4">
-          Please input the marks you have obtained in the following subject. Use
-          the buttons to add subject input field according to the credits it
-          covers. Finally, click on Calculate to evaluate SGPA of the particular
-          semester.
+          Please input the marks separated by spaces. Example - If you had 3
+          subjects of 4 credits each, enter marks in the field '4 Credits Marks'
+          as: <b>55 85 82</b>. Leave the fields that are not applicable to you.
         </p>
-        <div id="my-input">
-          <input
-            type="text"
-            class="form-control-lg"
-            placeholder="4 Credits Subject Marks"
-            name="4-sub"
-          /><br /><br />
-          <input
-            type="text"
-            class="form-control-lg"
-            placeholder="4 Credits Subject Marks"
-            name="4-sub"
-          /><br /><br />
-        </div>
+        <input
+          type="text"
+          class="form-control-lg mb-4"
+          placeholder="5 Credits Marks"
+          name="4-sub"
+        /><br />
+        <input
+          type="text"
+          class="form-control-lg mb-4"
+          placeholder="4 Credits Marks"
+          name="4-sub"
+        /><br />
+        <input
+          type="text"
+          class="form-control-lg mb-4"
+          placeholder="3 Credits Marks"
+          name="4-sub"
+        /><br />
+        <input
+          type="text"
+          class="form-control-lg mb-4"
+          placeholder="2 Credits Marks"
+          name="4-sub"
+        /><br />
+        <input
+          type="text"
+          class="form-control-lg mb-4"
+          placeholder="1 Credit Marks"
+          name="4-sub"
+        /><br />
 
         <button
           type="submit"

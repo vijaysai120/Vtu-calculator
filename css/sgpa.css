@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+#main-bg {
+  padding: 8% 5% 0% 5%;
+  line-height: 2;
+}
+.form-control-lg {
+  width: 90%;
+  background-color: #121212;
+  border: 0px;
+  color: white;
+}
