@@ -19,7 +19,7 @@
     <meta name="author" content="Vivek Mishra" />
 
     <meta name="theme-color" content="#060606" />
-    <title>VTU SGPA Calculator</title>
+    <title>VTU CGPA Calculator</title>
 
     <!-- Fevicon -->
     <link rel="shortcut icon" href="" type="image/x-icon" />
@@ -30,58 +30,86 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/sgpa.css" />
-    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/cgpa.js"></script>
   </head>
 
   <body>
     <div class="container">
       <div id="main-bg">
-        <h4 class="mb-4">SGPA Calculator</h4>
+        <h4 class="mb-4">CGPA Calculator</h4>
         <p class="display-5">
-          Please input the marks separated by spaces. Enter 0 in the fields that
-          are not applicable to you. Example - If you had 3 subjects of 4
-          credits each, enter marks in the field '4 Credits Marks' as:
-          <b>55 85 82</b>.
+          Please enter the SGPA obtained by you in following semesters. Enter 0
+          if the semester is not applicable to you.
         </p>
-        <h5 id="result" class="mb-4"></h5>
-        <form name="myform">
+        <h5 id="cgpa-result" class="mb-4"></h5>
+        <form name="cgpa_form">
           <input
             type="text"
             class="form-control-lg mb-4"
-            placeholder="5 Credits Marks"
-            name="five"
+            placeholder="1st Semester SGPA"
+            name="one"
           /><br />
           <input
             type="text"
             class="form-control-lg mb-4"
-            placeholder="4 Credits Marks"
-            name="four"
-          /><br />
-          <input
-            type="text"
-            class="form-control-lg mb-4"
-            placeholder="3 Credits Marks"
-            name="three"
-          /><br />
-          <input
-            type="text"
-            class="form-control-lg mb-4"
-            placeholder="2 Credits Marks"
+            placeholder="2nd Semester SGPA"
             name="two"
           /><br />
           <input
             type="text"
             class="form-control-lg mb-4"
-            placeholder="1 Credit Marks"
-            name="one"
+            placeholder="3rd Semester SGPA"
+            name="three"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="4th Semester SGPA"
+            name="four"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="5th Semester SGPA"
+            name="five"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="6th Semester SGPA"
+            name="six"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="7th Semester SGPA"
+            name="seven"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="8th Semester SGPA"
+            name="eight"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="9th Semester SGPA"
+            name="nine"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="10th Semester SGPA"
+            name="ten"
           /><br />
         </form>
 
-        <button onclick="calculate()" class="btn btn-outline-success mb-4">
+        <button onclick="calculate_cgpa()" class="btn btn-outline-success mb-4">
           Calculate
         </button>
-        <a href="sgpa.html"
+        <a href="cgpa.htm"
           ><button class="btn btn-outline-danger mb-4">Reset</button>
         </a>
         <a href="https://vtu-gpa.netlify.app"
