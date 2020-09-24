@@ -2,7 +2,7 @@ body {
   font-family: "Roboto Mono", monospace;
 }
 #main-bg {
-  padding: 8% 5% 0% 5%;
+  padding: 10% 5% 0% 5%;
   line-height: 2;
 }
 .form-control-lg {
@@ -10,4 +10,12 @@ body {
   background-color: #121212;
   border: 1px solid #505050;
   color: white;
+}
+
+#result {
+  color: #9b9b9b;
+}
+
+#res-color {
+  color: #77b300;
 }

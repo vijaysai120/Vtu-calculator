@@ -104,5 +104,6 @@ function calculate() {
     tot_cre_five + tot_cre_four + tot_cre_three + tot_cre_two + tot_cre_one;
 
   final_sgpa = final_grade_credit_sum / final_credit_sum;
-  alert(final_sgpa);
+  document.getElementById("result").innerHTML +=
+    "SGPA scored by you: <span id='res-color'>" + final_sgpa + "</span>";
 }
