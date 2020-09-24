@@ -2,4 +2,4 @@
 
 ![SGPA Calculator](./assets/sgpa.png "SGPA Calculator")
 
-A simple and easy way to calculate GPA for Visvesvaraya Technological University.
+A simple and easy way to calculate Grade Point Average for Visvesvaraya Technological University.
