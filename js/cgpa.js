@@ -10,11 +10,11 @@ function calculate_cgpa() {
   nine = parseFloat(document.cgpa_form.nine.value);
   ten = parseFloat(document.cgpa_form.ten.value);
 
-  if (five == 0) {
+  if (five == 0.0) {
     no_of_sem = 4;
-  } else if (seven == 0) {
+  } else if (seven == 0.0) {
     no_of_sem = 6;
-  } else if (nine == 0) {
+  } else if (nine == 0.0) {
     no_of_sem = 8;
   } else {
     no_of_sem = 10;
