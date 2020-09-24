@@ -135,6 +135,6 @@ function calculate_cgpa() {
 
   cgpa = products_sum / credits_sum;
   final_cgpa = Math.round((cgpa + Number.EPSILON) * 100) / 100;
-  document.getElementById("cgpa-result").innerHTML =
+  document.getElementById("result").innerHTML =
     "CGPA scored by you: <span id='res-mod'>" + final_cgpa + "</span>";
 }
