@@ -1,5 +1,5 @@
 function calculate() {
-  str_five = document.myform.five.value;
+  str_five = document.sgpa_form.five.value;
   str_five_arr = str_five.split(" ");
   if (str_five_arr[0] == 0) {
     tot_cre_five = 0;
@@ -24,7 +24,7 @@ function calculate() {
   }
 
   //////////////////////////////////////
-  str_four = document.myform.four.value;
+  str_four = document.sgpa_form.four.value;
   str_four_arr = str_four.split(" ");
   if (str_four_arr[0] == 0) {
     tot_cre_four = 0;
@@ -49,7 +49,7 @@ function calculate() {
   }
 
   //////////////////////////////////////
-  str_three = document.myform.three.value;
+  str_three = document.sgpa_form.three.value;
   str_three_arr = str_three.split(" ");
   if (str_three_arr[0] == 0) {
     tot_cre_three = 0;
@@ -74,7 +74,7 @@ function calculate() {
   }
 
   //////////////////////////////////////
-  str_two = document.myform.two.value;
+  str_two = document.sgpa_form.two.value;
   str_two_arr = str_two.split(" ");
   if (str_two_arr[0] == 0) {
     tot_cre_two = 0;
@@ -102,7 +102,7 @@ function calculate() {
   }
 
   ///////////////////////////////////////
-  str_one = document.myform.one.value;
+  str_one = document.sgpa_form.one.value;
   str_one_arr = str_one.split(" ");
   if (str_one_arr[0] == 0) {
     tot_cre_one = 0;
