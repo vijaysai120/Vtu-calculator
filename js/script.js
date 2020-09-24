@@ -135,6 +135,6 @@ function calculate() {
 
   sgpa = final_grade_credit_sum / final_credit_sum;
   final_sgpa = Math.round((sgpa + Number.EPSILON) * 100) / 100;
-  document.getElementById("result").innerHTML +=
+  document.getElementById("result").innerHTML =
     "SGPA scored by you: <span id='res-color'>" + final_sgpa + "</span>";
 }
