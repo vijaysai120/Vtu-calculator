@@ -1,14 +1,14 @@
 function calculate_cgpa() {
-  one = parseInt(document.cgpa_form.one.value);
-  two = parseInt(document.cgpa_form.two.value);
-  three = parseInt(document.cgpa_form.three.value);
-  four = parseInt(document.cgpa_form.four.value);
-  five = parseInt(document.cgpa_form.five.value);
-  six = parseInt(document.cgpa_form.six.value);
-  seven = parseInt(document.cgpa_form.seven.value);
-  eight = parseInt(document.cgpa_form.eight.value);
-  nine = parseInt(document.cgpa_form.nine.value);
-  ten = parseInt(document.cgpa_form.ten.value);
+  one = parseFloat(document.cgpa_form.one.value);
+  two = parseFloat(document.cgpa_form.two.value);
+  three = parseFloat(document.cgpa_form.three.value);
+  four = parseFloat(document.cgpa_form.four.value);
+  five = parseFloat(document.cgpa_form.five.value);
+  six = parseFloat(document.cgpa_form.six.value);
+  seven = parseFloat(document.cgpa_form.seven.value);
+  eight = parseFloat(document.cgpa_form.eight.value);
+  nine = parseFloat(document.cgpa_form.nine.value);
+  ten = parseFloat(document.cgpa_form.ten.value);
 
   if (five == 0) {
     no_of_sem = 4;
