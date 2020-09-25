@@ -17,6 +17,12 @@ body {
   line-height: 1.5;
 }
 
+#error {
+  color: #cc0000;
+  line-height: 1.5;
+  font-size: initial;
+}
+
 #res-mod {
   color: #77b300;
   font-weight: bold;

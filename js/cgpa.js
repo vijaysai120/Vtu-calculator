@@ -135,6 +135,11 @@ function calculate_cgpa() {
 
   cgpa = products_sum / credits_sum;
   final_cgpa = Math.round((cgpa + Number.EPSILON) * 100) / 100;
-  document.getElementById("result").innerHTML =
-    "CGPA scored by you: <span id='res-mod'>" + final_cgpa + "</span>";
+  if (isNaN(final_cgpa)) {
+    document.getElementById("result").innerHTML =
+      "<span id='error'>Please provide correct input!</span>";
+  } else {
+    document.getElementById("result").innerHTML =
+      "CGPA scored by you: <span id='res-mod'>" + final_cgpa + "</span>";
+  }
 }
