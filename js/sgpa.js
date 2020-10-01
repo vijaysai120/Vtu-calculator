@@ -10,8 +10,7 @@ function calculate() {
     str_five_count = 0;
     str_five_grade_arr = [];
     for (str_five_i = 0; str_five_i < str_five_arr_len; str_five_i++) {
-      str_five_arr_ip = str_five_arr[str_five_i];
-      str_five_arr_i = parseInt(str_five_arr_ip) / 2;
+      str_five_arr_i = str_five_arr[str_five_i];
       str_five_arr1 = str_five_arr_i.split("");
       str_five_grade_arr[str_five_count] = parseInt(str_five_arr1[0]) + 1;
       str_five_count++;
