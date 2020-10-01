@@ -88,7 +88,7 @@ function calculate() {
     str_two_count = 0;
     str_two_grade_arr = [];
     for (str_two_i = 0; str_two_i < str_two_arr_len; str_two_i++) {
-      str_two_arr_i == str_two_arr[str_two_i];
+      str_two_arr_i = str_two_arr[str_two_i];
       str_two_arr1 = str_two_arr_i.split("");
       str_two_grade_arr[str_two_count] = parseInt(str_two_arr1[0]) + 1;
       str_two_count++;
