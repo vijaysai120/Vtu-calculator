@@ -11,6 +11,8 @@ function calculate() {
     str_five_grade_arr = [];
     for (str_five_i = 0; str_five_i < str_five_arr_len; str_five_i++) {
       str_five_arr_i = str_five_arr[str_five_i];
+      str_five_arr_i = parseInt(str_five_arr_i) / 2;
+      str_five_arr_i = str_five_arr_i.toString();
       str_five_arr1 = str_five_arr_i.split("");
       str_five_grade_arr[str_five_count] = parseInt(str_five_arr1[0]) + 1;
       str_five_count++;
@@ -36,6 +38,9 @@ function calculate() {
     str_four_grade_arr = [];
     for (str_four_i = 0; str_four_i < str_four_arr_len; str_four_i++) {
       str_four_arr_i = str_four_arr[str_four_i];
+      if (parseInt(str_four_arr_i) == 100) {
+        str_four_arr_i = "99";
+      }
       str_four_arr1 = str_four_arr_i.split("");
       str_four_grade_arr[str_four_count] = parseInt(str_four_arr1[0]) + 1;
       str_four_count++;
@@ -61,6 +66,9 @@ function calculate() {
     str_three_grade_arr = [];
     for (str_three_i = 0; str_three_i < str_three_arr_len; str_three_i++) {
       str_three_arr_i = str_three_arr[str_three_i];
+      if (parseInt(str_three_arr_i) == 100) {
+        str_three_arr_i = "99";
+      }
       str_three_arr1 = str_three_arr_i.split("");
       str_three_grade_arr[str_three_count] = parseInt(str_three_arr1[0]) + 1;
       str_three_count++;
@@ -89,6 +97,9 @@ function calculate() {
     str_two_grade_arr = [];
     for (str_two_i = 0; str_two_i < str_two_arr_len; str_two_i++) {
       str_two_arr_i = str_two_arr[str_two_i];
+      if (parseInt(str_two_arr_i) == 100) {
+        str_two_arr_i = "99";
+      }
       str_two_arr1 = str_two_arr_i.split("");
       str_two_grade_arr[str_two_count] = parseInt(str_two_arr1[0]) + 1;
       str_two_count++;
@@ -117,6 +128,9 @@ function calculate() {
     str_one_grade_arr = [];
     for (str_one_i = 0; str_one_i < str_one_arr_len; str_one_i++) {
       str_one_arr_i = str_one_arr[str_one_i];
+      if (parseInt(str_one_arr_i) == 100) {
+        str_one_arr_i = "99";
+      }
       str_one_arr1 = str_one_arr_i.split("");
       str_one_grade_arr[str_one_count] = parseInt(str_one_arr1[0]) + 1;
       str_one_count++;
