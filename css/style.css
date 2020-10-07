@@ -2,7 +2,7 @@
   font-family: "Roboto Mono";
   src: url("https://vtu-gpa.netlify.app/font/RobotoMono-Medium.ttf")
     format("truetype");
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
