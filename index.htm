@@ -58,10 +58,15 @@
       content="A simple and easy way to calculate GPA for VTU students."
     />
 
-    <link rel="shortcut icon" href="assets/main-logo.png" type="image/x-icon" />
-    <link rel="icon" href="assets/main-logo.png" type="image/x-icon" />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      rel="shortcut icon"
+      href="/assets/main-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="/assets/main-logo.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/bootstrap.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
       rel="stylesheet"
@@ -87,13 +92,13 @@
         <a
           class="btn btn-outline-primary btn-lg mb-4"
           role="button"
-          href="files/sgpa.htm"
+          href="/html/sgpa.htm"
           >Calculate SGPA</a
         >
         <a
           class="btn btn-outline-primary btn-lg mb-4"
           role="button"
-          href="files/cgpa.htm"
+          href="/html/cgpa.htm"
           >Calculate CGPA</a
         >
         <p style="color: #696969">
@@ -102,5 +107,15 @@
         </p>
       </div>
     </div>
+
+    <script>
+      if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker.register("/sw.js").then(function (reg) {
+          console.log(
+            "Service worker has been registered for scope: " + reg.scope
+          );
+        });
+      }
+    </script>
   </body>
 </html>
