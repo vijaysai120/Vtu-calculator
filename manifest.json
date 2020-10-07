@@ -5,12 +5,12 @@
   "background_color": "#060606",
   "display": "standalone",
   "scope": "/",
-  "start_url": "https://vtu-gpa.netlify.app",
+  "start_url": "https://vtu-gpa.netlify.app/",
   "description": "A simple and easy way to calculate GPA for VTU students.",
   "orientation": "any",
   "icons": [
     {
-      "src": "https://vtu-gpa.netlify.app/assets/main-logo.png",
+      "src": "https://vtu-gpa.netlify.app/images/main-logo.png",
       "sizes": "583x583"
     }
   ],
@@ -18,12 +18,12 @@
   "lang": "English",
   "screenshots": [
     {
-      "src": "/images/desktop.png",
+      "src": "https://vtu-gpa.netlify.app/images/desktop.png",
       "sizes": "1280x800",
       "type": "image/png"
     },
     {
-      "src": "/images/mobile.png",
+      "src": "https://vtu-gpa.netlify.app/images/mobile.png",
       "sizes": "750x1334",
       "type": "image/png"
     }
