@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("https://vtu-gpa.netlify.app/font/RobotoMono-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
 }
