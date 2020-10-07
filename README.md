@@ -1,6 +1,6 @@
 # VTU-GPA
 
-![SGPA Calculator](./assets/sgpa-snap.png "SGPA Calculator")
+![SGPA Calculator](./images/sgpa-snap.png "SGPA Calculator")
 
 ---
 
@@ -65,4 +65,4 @@ git push origin master
 
 Copyright © 2020 Vivek Mishra ([@iamvvekm](https://twitter.com/iamvvekm))
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/iamvkm/techaware/blob/master/LICENSE.md) for additional licensing information.
+The project is released under the MIT License. Check the [original theme license](https://github.com/iamvkm/vtu-gpa/blob/master/LICENSE.md) for additional licensing information.
