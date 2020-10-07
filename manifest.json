@@ -10,8 +10,22 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/assets/main-logo.png",
+      "src": "https://vtu-gpa.netlify.app/assets/main-logo.png",
       "sizes": "583x583"
+    }
+  ],
+  "url": "https://vtu-gpa.netlify.app",
+  "lang": "English",
+  "screenshots": [
+    {
+      "src": "/images/desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
     }
   ]
 }
