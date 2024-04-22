@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: vtu-gpa.netlify.app
-Token: 2d8031b37b2ea93fe1bbc159f9caae5bf12993d19dd3aa9367f9d9b0f5f256aa
